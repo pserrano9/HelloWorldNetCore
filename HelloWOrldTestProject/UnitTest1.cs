@@ -10,6 +10,9 @@ public class Tests
     [Test]
     public void Test1()
     {
-        Assert.Equals(1, 1);
+        int number = 1;
+        int secondNumber = 1;
+        
+        Assert.AreEqual(number, secondNumber);
     }
 }
