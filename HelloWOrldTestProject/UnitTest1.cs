@@ -13,6 +13,6 @@ public class Tests
         int number = 1;
         int secondNumber = 1;
         
-        Assert.AreEqual(number, secondNumber);
+        Assert.That(number,Is.EqualTo(secondNumber));
     }
 }
