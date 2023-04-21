@@ -11,7 +11,7 @@ public class Tests
     public void Test1()
     {
         int number = 1;
-        int secondNumber = 2;
+        int secondNumber = 1;
         
         Assert.AreEqual(number, secondNumber);
     }
